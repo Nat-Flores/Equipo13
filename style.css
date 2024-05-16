@@ -1,0 +1,63 @@
+
+.centrado{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.justificado{
+    display: flex;
+    justify-content: justify;
+}
+
+.espacio{
+    padding: 20px;
+}
+
+.parrafo1{
+    display: flex;
+    max-width: 75em;
+    margin:20px 120px 0px 120px;
+    align-content: center;
+    text-align: justify;
+    border-radius: 20px;
+   /* background-color:pink;*/
+    padding: 15px;
+    border: 2px solid black;
+    
+}
+
+
+.parrafo2{
+    display: flex;
+    max-width: 75em;
+    margin:40px 120px 40px 120px;
+    align-content: center;
+    text-align: justify;
+    border-radius: 20px;
+   /* background-color:pink;*/
+    padding: 15px;
+    border: 2px solid black;
+    
+}
+
+.parrafo2viejo{
+    display: flex;
+    max-width: 75em;
+    margin:15px 120px 15px 120px;
+    align-content: center;
+    text-align: justify;
+    border-radius: 20px;
+    background-color:pink;
+    padding: 15px;
+}
+.imagen1{
+    border-radius: 20px;
+    width: 350px;
+    height: 200px;
+}
+.imagen2{
+    border-radius: 20px;
+    width: 150px;
+    height: 150x;
+}
