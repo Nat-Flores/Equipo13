@@ -1,4 +1,15 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+    font-family: 'Figtree', sans-serif;
+    background-color:#ffefc1;
+
+
+}
+
+
+
 .centrado{
     display: flex;
     justify-content: center;
@@ -21,7 +32,7 @@
     align-content: center;
     text-align: justify;
     border-radius: 20px;
-   /* background-color:pink;*/
+    background-color:#ffefc1;
     padding: 15px;
     border: 2px solid black;
     
@@ -35,22 +46,12 @@
     align-content: center;
     text-align: justify;
     border-radius: 20px;
-   /* background-color:pink;*/
+    background-color:#ffefc1;
     padding: 15px;
     border: 2px solid black;
     
 }
 
-.parrafo2viejo{
-    display: flex;
-    max-width: 75em;
-    margin:15px 120px 15px 120px;
-    align-content: center;
-    text-align: justify;
-    border-radius: 20px;
-    background-color:pink;
-    padding: 15px;
-}
 .imagen1{
     border-radius: 20px;
     width: 350px;
