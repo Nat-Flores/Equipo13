@@ -7,6 +7,17 @@ body {
     
 }
 
+/* animación */
+.rotate {
+    animation: rotateAnimation 2s infinite linear;
+}
+
+@keyframes rotateAnimation {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
 
 .centrado{
     display: flex;
