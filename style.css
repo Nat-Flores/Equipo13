@@ -1,15 +1,17 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
 
+
 body {
     font-family: 'Figtree', sans-serif;
-    background-color:#ffefc1;
+    
 }
 
 
 .centrado{
     display: flex;
     justify-content: center;
+    color:#996e02;
    
 }
 
@@ -29,9 +31,9 @@ body {
     align-content: center;
     text-align: justify;
     border-radius: 20px;
-    background-color:#ffefc1;
+    /*background-color:#ffefc1;*/
     padding: 15px;
-    border: 2px solid black;
+    border: 2px solid #996e02;
     
 }
 
@@ -43,9 +45,9 @@ body {
     align-content: center;
     text-align: justify;
     border-radius: 20px;
-    background-color:#ffefc1;
+    /*background-color:#ffefc1;*/
     padding: 15px;
-    border: 2px solid black;
+    border: 2px solid #996e02;
     
 }
 
@@ -58,4 +60,32 @@ body {
     border-radius: 20px;
     width: 150px;
     height: 150x;
+}
+
+/**Formulario*/
+form {
+    margin: 40px 500px 40px 500px;
+        
+    background-color:#996e02;
+    /*darkgoldenrod;*/
+    padding: 10px;
+    flex-direction: column;
+    text-align:center;
+    /*width: 300px;*/
+    border-radius: 20px;
+
+}
+p{
+   
+    text-align: left;
+}
+form h2 {
+    font-size: 20px;
+    color:black;
+}
+
+.btn{
+    background-color:whitesmoke;
+    
+    cursor: pointer;
 }
